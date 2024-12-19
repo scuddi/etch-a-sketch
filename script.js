@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function addDivs() {
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 256; i++) {
         var cell = document.createElement("div");
         cell.className = "cell";
         document.getElementById("container").appendChild(cell);
