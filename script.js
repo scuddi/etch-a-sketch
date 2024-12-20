@@ -10,5 +10,10 @@ function addDivs() {
         cell.className = "cell";
         cell.id = i;
         document.getElementById("container").appendChild(cell);
+        cell.setAttribute("onmouseover", `paintDivs(${i})`)
     };
 };
+
+function paintDivs(i) {
+    document.getElementById(i).style.background = "blue";
+}
