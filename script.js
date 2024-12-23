@@ -23,4 +23,5 @@ function paintDivs(i) {
 function restartSite() {
     let numberOfSquaresPerSide = prompt("How many squares should each side of your Etch-A-Sketch have? 100 is the maximum", 100);
     alert(`You chose ${numberOfSquaresPerSide}`);
+    document.querySelectorAll(".cell").forEach(e => e.remove());
 }
