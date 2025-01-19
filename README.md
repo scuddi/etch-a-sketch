@@ -1,5 +1,10 @@
-# Etch-a-sketch
+# Etch-a-sketch with JavaScript
 
-Welcome! This is a project within the Open-Source-Curriculum of the [The Odin Project](https://www.theodinproject.com/)
+Welcome! This is a project within the Open-Source-Curriculum of "The Odin Projectr". ([See](https://www.theodinproject.com/lessons/foundations-etch-a-sketch))
 
-More to come!
+The goal was to implement a simple Etch-a-sketch to apply and strenghten the learned JavaScript Skills.
+
+## Possible To-Dos
+
+- [ ] Bonus Assignments by Odin Project
+- [ ] Design: Style the Page with CSS
